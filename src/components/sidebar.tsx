@@ -12,7 +12,7 @@ const Sidebar = ({ isCollapsed }: SidebarProps) => {
   return (
     <aside
       className={cn(
-        "fixed top-16 left-0 bottom-0 border-r bg-background z-0 pt-4 transition-all duration-300 ease-in-out flex flex-col",
+        "fixed top-16 left-0 bottom-0 border-r bg-orange-100 z-0 pt-4 transition-all duration-300 ease-in-out flex flex-col",
         isCollapsed ? "w-16 px-2" : "w-64 px-4"
       )}
     >

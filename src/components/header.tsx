@@ -9,7 +9,7 @@ interface HeaderProps {
 
 const Header = ({ isSidebarCollapsed, onToggleSidebar }: HeaderProps) => {
   return (
-    <header className="fixed top-0 left-0 right-0 h-16 border-b bg-background z-10 flex items-center px-4">
+    <header className="fixed top-0 left-0 right-0 h-16 border-b bg-blue-100 z-10 flex items-center px-4">
       <Button variant="ghost" size="icon" onClick={onToggleSidebar} className="mr-4">
         {isSidebarCollapsed ? (
           <PanelRightClose className="h-5 w-5" />

@@ -3,7 +3,7 @@ import "./globals.css";
 import LayoutClient from "@/components/layout-client";
 
 export const metadata: Metadata = {
-  title: "Immersive UI Prototype",
+  title: "Immersive UI",
   description: "Chat + Search UI Prototype",
 };
 
